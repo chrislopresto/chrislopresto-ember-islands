@@ -7,6 +7,8 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('ember-modal-dialog-intro');
+  this.route('living-style-guide-driven-development');
 });
 
 export default Router;
